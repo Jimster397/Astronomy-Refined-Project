@@ -1,13 +1,12 @@
 {
   "astronomy": [
     {
-      "title": "asd",
-      "copyright": "asd",
-      "explanation": "asd",
-      "date": "sda",
-      "url": "dasd",
-      "media_type": "asd",
-      "": "a",
+      "title": "Galaxy",
+      "copyright": "James",
+      "explanation": "Picture of the Galaxy",
+      "date": "2021-10-29",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/NGC_4414_%28NASA-med%29.jpg/1200px-NGC_4414_%28NASA-med%29.jpg",
+      "media_type": "Picture",
       "id": 1
     }
   ]

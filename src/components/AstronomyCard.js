@@ -1,24 +1,49 @@
 import React, {useState} from "react";
+import styled from 'styled-components'
 
-function AstronomyCard({astronomy:{title ,copyright, explanation, date, url, media_type }}){
+function AstronomyCard({astronomy:{title , copyright, explanation, date, url, media_type }}){
     const [showExpand, setShowExpand]=useState(false)
     function handleClick(){
         setShowExpand((currentShowExpand)=> !currentShowExpand)
     }
     return (
-        <div className='card' onClick={handleClick}>
-            <div>{showExpand ? title : null}</div>
-            <div>{showExpand ? date : null}</div>
-            <div>{showExpand ?  copyright : null}</div>
-             {media_type === 'video' ? <iframe src={url}  />
+        <StyleCard  onClick={handleClick}>
+            <div className='title'>{showExpand ? title : null}</div>
+            <div className='date'>{showExpand ? date : null}</div>
+            <div className='copy'>{showExpand ?  copyright : null}</div>
+             {media_type === 'video' ? <iframe src={url}  title={title}/>
        : <img src={url} alt="name"/>}
-<div className="card_explanation" >{showExpand ? explanation: null}
+<p className="card_explanation" >{showExpand ? explanation: null}
 
 
 
     
-    </div>
-</div>
+    </p>
+</StyleCard>
     )
 }
 export default AstronomyCard
+
+const StyleCard = styled.div `
+    
+
+    .card_explanation{
+        
+        font-size: 15px;
+        color:black; 
+        background-color:white;      
+    }
+
+   .title{
+        color:white;
+
+    }
+
+    div.date{
+        color:white;
+    }
+
+    div.copy{
+        color:white;
+    }
+`

@@ -39,32 +39,12 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+### `About our Project`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This would be our second project completed while at Flatiron School. We imagined one of the most popular websites today and that would be the Astronomy Picture of the Day provided by Nasa and pictures submitted by individual people. We created an App that merges the data so that users are able to view the entire month worth of photos and get the information from each one of them by clicking on the photo they find the most interesting. If looking at the entire months photos is a bit intimidating we allowed the user to view weekly or daily through routes we provided. Finally, the last route we provided was a photo that the user is able to submit to their own local machine. The photo that the user sumbits has the same functionality as the other photos pulled from the Nasa website. 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### `Stretch Goals`
+We would have liked to create some pagenation for our project and to be able to shift through more months. With little knowledge on how to accomplish these goals. We hard-coded the month of September 2021 which was how we were able to get these photos. In the future, both my project partner and I would like to reserach more into how we are able to create pagenation and not hard code dates and more go through dates that the user inputs.
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### `Conclusion`
+This project was done with about 6 weeks of learning Javascript and React. We hope this project could be used for other students or Flatiron associates. Additonally, this project was made to show our knowledge of React and JavaScript. Thank you for taking the time to Read the README.md. 
